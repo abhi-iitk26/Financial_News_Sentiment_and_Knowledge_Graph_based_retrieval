@@ -40,25 +40,45 @@ This project combines **financial news sentiment analysis** with **graph-based i
 ---
 ## 🔹 Project Structure
 
-├── data.csv                         # Original financial news dataset
-├── corpus_with_entities.csv         # Dataset with extracted named entities
+Project Structure
 │
-├── sentiment_analysis_ml.ipynb      # ML models: Logistic Regression, SVC, etc.
-├── sentiment_analysis_dl.ipynb      # Deep Learning models: LSTM, Bi-LSTM, GRU
+├── data.csv
+│   └── Original financial news dataset
 │
-├── ner_extraction.py                # Named Entity Recognition using spaCy
-├── kg_builder.py                    # Knowledge Graph construction in Neo4j
-├── kg_frontend.py                   # Streamlit frontend for querying & visualization
+├── corpus_with_entities.csv
+│   └── Dataset with extracted named entities
 │
-├── requirements.txt                 # Python dependencies
-├── README.md                        # Project documentation
+├── sentiment_analysis_ml.ipynb
+│   └── ML models: Logistic Regression, SVC, etc.
 │
-└── lib/                             # Frontend libraries
+├── sentiment_analysis_dl.ipynb
+│   └── Deep Learning models: LSTM, Bi-LSTM, GRU
+│
+├── ner_extraction.py
+│   └── Named Entity Recognition using spaCy
+│
+├── kg_builder.py
+│   └── Knowledge Graph construction in Neo4j
+│
+├── kg_frontend.py
+│   └── Streamlit frontend for querying & visualization
+│
+├── requirements.txt
+│   └── Python dependencies
+│
+├── README.md
+│   └── Project documentation
+│
+└── lib/
+    └── Frontend libraries
+    │
     ├── bindings/
     │   └── utils.js
+    │
     ├── tom-select/
     │   ├── tom-select.complete.min.js
     │   └── tom-select.css
+    │
     └── vis-9.1.2/
         ├── vis-network.min.js
         └── vis-network.css
