@@ -44,7 +44,7 @@ This project combines **financial news sentiment analysis** with **graph-based i
 ├── corpus_with_entities.csv         # Dataset with extracted named entities
 │
 ├── sentiment_analysis_ml.ipynb      # ML models: Logistic Regression, SVC, etc.
-├── sentiment_analysis_dl.ipynb      # DL models: LSTM, Bi-LSTM, GRU
+├── sentiment_analysis_dl.ipynb      # Deep Learning models: LSTM, Bi-LSTM, GRU
 │
 ├── ner_extraction.py                # Named Entity Recognition using spaCy
 ├── kg_builder.py                    # Knowledge Graph construction in Neo4j
