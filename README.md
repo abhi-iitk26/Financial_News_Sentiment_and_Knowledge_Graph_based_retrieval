@@ -40,4 +40,35 @@ This project combines **financial news sentiment analysis** with **graph-based i
 ---
 
 ## 🔹 Project Structure
+│
+├── data.csv # Original financial news dataset
+├── corpus_with_entities.csv # Dataset with extracted named entities
+│
+├── sentiment_analysis_ml.ipynb # ML models: Logistic Regression, SVC, etc.
+├── sentiment_analysis_dl.ipynb # Deep Learning: LSTM, Bi-LSTM, GRU
+│
+├── ner_extraction.py # Named Entity Recognition using spaCy
+├── kg_builder.py # Builds Knowledge Graph in Neo4j
+├── kg_frontend.py # Streamlit frontend for querying & visualization
+│
+├── requirements.txt # Python dependencies
+├── README.md # Project documentation
+│
+└── lib/ # Frontend libraries
+├── bindings/
+│ └── utils.js
+├── tom-select/
+│ ├── tom-select.complete.min.js
+│ └── tom-select.css
+└── vis-9.1.2/
+├── vis-network.min.js
+└── vis-network.css
 
+2️⃣ Set up Neo4j (Docker)
+3️⃣ Build Knowledge Graph
+4️⃣ Launch Frontend
+🔹 Results
+Best ML Model: Logistic Regression – 70% accuracy, 0.71 F1-score
+Best DL Model: Bi-LSTM – 72% accuracy
+Neo4j Graph Database: Efficient entity-based news retrieval
+Interactive Streamlit UI: Query entities and visualize knowledge graph
