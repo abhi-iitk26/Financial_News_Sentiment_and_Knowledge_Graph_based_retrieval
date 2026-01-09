@@ -39,7 +39,7 @@ This project combines **financial news sentiment analysis** with **graph-based i
 
 ---
 ## 🔹 Project Structure
-
+```
 Project Structure
 │
 ├── data.csv
@@ -82,3 +82,8 @@ Project Structure
     └── vis-9.1.2/
         ├── vis-network.min.js
         └── vis-network.css
+```
+
+---
+
+⭐ **Star this repository if you found it useful!**
